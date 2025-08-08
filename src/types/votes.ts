@@ -1,4 +1,4 @@
-export interface votes {
+export interface test {
     good: number,
     neutral: number,
     bad: number

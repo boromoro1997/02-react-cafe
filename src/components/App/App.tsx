@@ -2,13 +2,13 @@
 import css from './App.module.css';
 import CafeInfo from '../CafeInfo/Cafeinfo';
 import { useState } from 'react';
-import type { votes } from '../../types/votes';
+import type { test } from '../../types/votes.ts';
 import type { VoteType } from '../../types/votes';
 import VoteOptions from '../VoteOptions/VoteOptions';
 import VoteStats from '../VoteStats/VoteStats';
 import Notification from '../Notification/Notification';
 export default function App() {
-  const [counts, setCounts] = useState<votes>({
+  const [counts, setCounts] = useState<test>({
     good: 0,
     neutral: 0,
     bad: 0,
