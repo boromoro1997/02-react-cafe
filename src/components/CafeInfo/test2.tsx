@@ -1,4 +1,4 @@
-import css from './Cafeinfo.module.css';
+import css from './test2.module.css';
 export default function CafeInfo() {
   return (
     <div className={css.container}>
